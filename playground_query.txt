@@ -1,0 +1,16 @@
+
+-- select all_user_names();
+-- create user user3 password="user3" comment="user3 for testings"
+-- Create role auditor;
+-- GRANT ROLE auditor TO USER user3;
+-- grant usage on warehouse compute_wh to auditor;
+-- grant usage on database demo to finance;
+
+
+create or replace TABLE DEMO.DEMO_SCHEMA.TEST1 (
+	Student VARCHAR(16777216),
+	AGE NUMBER(38,0)
+);
+
+-- insert into test values ('karan', 25), ('Raju', 24);
+-- select * from test;
